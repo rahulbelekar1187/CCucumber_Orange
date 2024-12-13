@@ -19,10 +19,9 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.5.0</version>
           <configuration>
-			<includes>
-				<exclude>**/*Run.java</exclude>
-			</includes>
-			
+			<suiteXmlFiles>
+				<suiteXmlFile>testng.xml</suiteXmlFile>
+			</suiteXmlFiles>
 		  </configuration>
           
         </plugin>  
