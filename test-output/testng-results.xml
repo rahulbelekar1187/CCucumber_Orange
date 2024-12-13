@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-13T12:10:55 IST" name="Suite" finished-at="2024-12-13T12:11:56 IST" duration-ms="60959">
+    <groups>
+    </groups>
+    <test started-at="2024-12-13T12:10:55 IST" name="Test" finished-at="2024-12-13T12:11:56 IST" duration-ms="60959">
+      <class name="P_DDF_Orange.DataDrivenTest_Orange">
+        <test-method is-config="true" signature="set()[pri:0, instance:P_DDF_Orange.DataDrivenTest_Orange@67ab1c47]" started-at="2024-12-13T12:10:55 IST" name="set" finished-at="2024-12-13T12:10:58 IST" duration-ms="2979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:P_DDF_Orange.DataDrivenTest_Orange@67ab1c47]" started-at="2024-12-13T12:10:59 IST" name="logintest" data-provider="dataprovider" finished-at="2024-12-13T12:11:20 IST" duration-ms="21746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:P_DDF_Orange.DataDrivenTest_Orange@67ab1c47]" started-at="2024-12-13T12:11:21 IST" name="logintest" data-provider="dataprovider" finished-at="2024-12-13T12:11:32 IST" duration-ms="11177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RC@Lpm43Xj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:P_DDF_Orange.DataDrivenTest_Orange@67ab1c47]" started-at="2024-12-13T12:11:32 IST" name="logintest" data-provider="dataprovider" finished-at="2024-12-13T12:11:43 IST" duration-ms="11435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adminnn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:P_DDF_Orange.DataDrivenTest_Orange@67ab1c47]" started-at="2024-12-13T12:11:43 IST" name="logintest" data-provider="dataprovider" finished-at="2024-12-13T12:11:54 IST" duration-ms="10839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulbelekar18@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminnn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:P_DDF_Orange.DataDrivenTest_Orange@67ab1c47]" started-at="2024-12-13T12:11:54 IST" name="tearDown" finished-at="2024-12-13T12:11:56 IST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- P_DDF_Orange.DataDrivenTest_Orange -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
